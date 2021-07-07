@@ -11,3 +11,5 @@ public class QuotationMicroserviceApplication {
 		SpringApplication.run(QuotationMicroserviceApplication.class, args);
 	}
 }
+
+// docker run --name my-nginx -p 8085:80 -v /home/aniruddha/projects/fullstack-training/nginx-demo:/usr/share/nginx/html nginx
